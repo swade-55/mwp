@@ -9,6 +9,7 @@ import GitHub from '../assets/github.png';
 import Tailwind from '../assets/tailwind.png';
 import GCP from '../assets/gcp.png';
 import postgres from '../assets/postgres.png'
+import python from '../assets/python.png';
 
 
 const Skills = () => {
@@ -39,7 +40,7 @@ const Skills = () => {
         </div>
         <div className = 'shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
           <img className = 'w-20 mx-auto' src={ReactImg} alt="HTML icon" />
-          <p className = 'my-4'>ReactImg</p>
+          <p className = 'my-4'>React</p>
         </div>
         <div className = 'shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
           <img className = 'w-20 mx-auto' src={Tailwind} alt="HTML icon" />
@@ -56,6 +57,10 @@ const Skills = () => {
         <div className = 'shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
           <img className = 'w-20 mx-auto' src={postgres} alt="Postgres icon" />
           <p className = 'my-4'>Postgres</p>
+        </div>
+        <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 '>
+          <img className="w-20 mx-auto" src= {python} alt="Python" />
+          <p className = 'my-4'>Python</p>
         </div>
       </div>
     </div>
